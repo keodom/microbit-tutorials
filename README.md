@@ -1,6 +1,10 @@
 
 > Open this page at [https://keodom.github.io/tutorials/](https://keodom.github.io/tutorials/)
 
+## Tutorials
+* [tutorials](/tutorials/counter-tutorial)
+
+
 ## Use as Extension
 
 This repository can be added as an **extension** in MakeCode.
