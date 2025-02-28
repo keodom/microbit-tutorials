@@ -2,7 +2,7 @@
 > Open this page at [https://keodom.github.io/tutorials/](https://keodom.github.io/tutorials/)
 
 ## Tutorials
-* [tutorials](/tutorials/counter-tutorial)
+* [Counter Tutorial](/tutorials/counter-tutorial)
 
 
 ## Use as Extension
