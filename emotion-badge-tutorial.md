@@ -37,9 +37,8 @@ input.onButtonPressed(Button.A, function () {
 
 ## B = 😞
 
-Open `||input:Input||` and grab a `||input:on button A pressed||` event block and change A to B.
-Open `||basic:Basic||` and  grab a `||basic:showIcon||` block and place it inside the `||input:on button B pressed||`.
-Change the heart to the sad face.
+Duplicate (two-finger tap or right-click on the block) your `||input:on button A pressed||`` code and change the A to B.
+On the `||basic:show icon||` block, change the happy face to the sad face.
 
 ```blocks
 input.onButtonPressed(Button.B, function () {

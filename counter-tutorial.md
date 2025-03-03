@@ -63,7 +63,8 @@ input.onButtonPressed(Button.A, function () {
 
 ## What if we want to see our count without changing it?
 
-Open ``||input:Input||`` and drag a ``||input:on button A pressed||`` block into your workspace and change the A to  B. Duplicate (two-finger tap or right-click on the block) your **show number count** block from the button A code and drag it inside the button B code.
+Open ``||input:Input||`` and drag a ``||input:on button A pressed||`` block into your workspace and change the A to  B.
+Duplicate (two-finger tap or right-click on the block) your **show number count** block from the button A code and drag it inside the button B code.
 
 ```blocks
 input.onButtonPressed(Button.B, function () {
@@ -73,7 +74,8 @@ input.onButtonPressed(Button.B, function () {
 
 ## What if we wanted to start counting something different?
 
-We would need to start counting over from 0 right? Open the ``||input:Input||`` category and grab another ``||input:on button A pressed||`` block. Change the A to A+B. Then add a ``||basic:show number||`` block and a ``||variables:set count||`` block.
+We would need to start counting over from 0 right?
+Open the ``||input:Input||`` category and grab another ``||input:on button A pressed||`` block. Change the A to A+B. Then add a ``||basic:show number||`` block and a ``||variables:set count||`` block.
 
 ```blocks
 input.onButtonPressed(Button.AB, function () {
