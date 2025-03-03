@@ -23,6 +23,7 @@ basic.forever(function (){
 Let's start our calming LEDs animation with a single LED lighting up to tell us to start breathing in.
 Open the `||basic:Basic||` category in the Toolbox and grab a `||basic:show leds||`.
 Place it after the `||basic:pause||` block.
+Click on the square in the middle of the grid to turn on that led.
 
 ```blocks
 basic.forever(function (){
@@ -90,6 +91,7 @@ basic.forever(function (){
 Now we need to add an indicator to start breathing out in our animation.
 Duplicate a `||basic:pause (ms) 500||` block.
 Add it below the `||basic:show icon large diamond||` block.
+Change the 500 ms to 1 second.
 Duplicate the `||basic:show icon small diamond||` block and connect it below the last `||basic:pause (ms) 500||`.
 
 ```blocks
@@ -106,7 +108,7 @@ basic.forever(function (){
     basic.showIcon(IconNames.SmallDiamond)
     basic.pause(500)
     basic.showIcon(IconNames.Diamond)
-    basic.pause(500)
+    basic.pause(1000)
     basic.showIcon(IconNames.SmallDiamond)
 })
 ```
@@ -114,8 +116,8 @@ basic.forever(function (){
 ## And hold
 
 Duplicate a `||basic:pause (ms) 500||` block.
-Duplicate the `||basic:show leds||` block from the begining of our code and add ti below the final `||basic:pause||` block.
-We have no finished our animation!
+Duplicate the `||basic:show leds||` block from the begining of our code and add it below the final `||basic:pause||` block.
+We have now finished our animation!
 
 ```blocks
 basic.forever(function () {
@@ -131,7 +133,7 @@ basic.forever(function () {
     basic.showIcon(IconNames.SmallDiamond)
     basic.pause(500)
     basic.showIcon(IconNames.Diamond)
-    basic.pause(500)
+    basic.pause(1000)
     basic.showIcon(IconNames.SmallDiamond)
     basic.pause(500)
     basic.showLeds(`
