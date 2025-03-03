@@ -4,6 +4,9 @@
 ## Tutorials
 * [Counter Tutorial](/tutorials/counter-tutorial)
 * [Emotion Badge Tutorial](/tutorials/emotion-badge-tutorial)
+* [Rock Paper Scissors Tutorial](/tutorials/rock-paper-scissors-tutorial)
+
+
 
 ## Edit this project
 

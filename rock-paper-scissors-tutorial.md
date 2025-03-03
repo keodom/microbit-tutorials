@@ -71,7 +71,7 @@ input.onGesture(Gesture.Shake, function () {
 })
 ```
 
-## Rock
+## 🪨
 
 Now, we need to check to see **if** the micro:bit should show a rock.
 Open the `||logic:Logic||` category and grab a `||logic:0 = 0||` block.
@@ -94,7 +94,7 @@ input.onGesture(Gesture.Shake, function () {
 })
 ```
 
-## Paper
+## 📃
 
 What about if **hand = 2**?
 Well, then that can be paper!
@@ -118,13 +118,32 @@ input.onGesture(Gesture.Shake, function () {
 ```
 
 
-## Scissors
+## ✂️
+
+Only one option left to code!
+Since there are no other possiblities, we don't have to check to see if hand = 3!
+Duplicate the `||basic:show icon||` block and place it in the last section of the conditional.
+Change the square to the scissors icon.
+
+
+```blocks
+let hand = 0
+input.onGesture(Gesture.Shake, function () {
+    hand = randint(1, 3)
+    if (hand == 1) {
+	    basic.showIcon(IconNames.SmallSquare)
+    } else if (hand == 2) {
+	    basic.showIcon(IconNames.Square)
+    } else {
+        basic.showIcon(IconNames.Scissors)
+}
+})
+```
 
 
 ## Time to test and submit!
 
-Now test all features of your emotion badge!
-Does the micro:bit display a happy face when you press A?
-Does the micro:bit display a sad face when you press B?
-Does the micro:bit display the emotion you designed when you press A+B?
+Now let's let's our game!
+Shake the micro:bit several times until you see all 3 options show on the screen.
+Did it work?
 Great! You're ready to submit your project in Canvas!
