@@ -3,16 +3,7 @@
 
 ## Tutorials
 * [Counter Tutorial](/tutorials/counter-tutorial)
-
-
-## Use as Extension
-
-This repository can be added as an **extension** in MakeCode.
-
-* open [https://makecode.microbit.org/](https://makecode.microbit.org/)
-* click on **New Project**
-* click on **Extensions** under the gearwheel menu
-* search for **https://github.com/keodom/tutorials** and import
+* [Emotion Badge Tutorial](/tutorials/emotion-badge-tutorial)
 
 ## Edit this project
 

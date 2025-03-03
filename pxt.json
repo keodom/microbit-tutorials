@@ -1,6 +1,6 @@
 {
     "name": "Tutorials",
-    "version": "0.0.2",
+    "version": "0.0.3",
     "description": "",
     "dependencies": {
         "core": "*",
@@ -11,7 +11,8 @@
         "main.blocks",
         "main.ts",
         "README.md",
-        "counter-tutorial.md"
+        "counter-tutorial.md",
+        "emotion-badge-tutorial.md"
     ],
     "testFiles": [
         "test.ts"

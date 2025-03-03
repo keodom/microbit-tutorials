@@ -2,7 +2,9 @@
 
 ## micro:bit Counter @showdialog
 
-Imagine you are going on a nature walk to gather some data for science class. You need to count how many bees you see. You could bring a clipboard with paper and pencil and use tally marks OR we could use the micro:bit by making a counter program!
+Imagine you are going on a nature walk to gather some data for science class.
+You need to count how many bees you see.
+You could bring a clipboard with paper and pencil and use tally marks OR we could use the micro:bit by making a counter program!
 
 ## Let's get started! @fullscreen
 
@@ -82,4 +84,8 @@ input.onButtonPressed(Button.AB, function () {
 
 ## Time to test and submit!
 
-Now test all features of your counter! Does the count increase when you press A? Does the value of count display when you press B? Does the count reset when you press A+B? Great! You're ready to submit your project in Canvas!
+Now test all features of your counter!
+Does the count increase when you press A?
+Does the value of count display when you press B?
+Does the count reset when you press A+B? Great!
+You're ready to submit your project in Canvas!
