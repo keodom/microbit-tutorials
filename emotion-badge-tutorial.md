@@ -25,7 +25,7 @@ input.onButtonPressed(Button.A, function () {
 
 ## A = 😊
 
-Open `||basic:Basic||` and  grab a `||basic:showIcon||` block and place it inside the `||input:on button A pressed||`.
+Open `||basic:Basic||` and  grab a `||basic:show Icon||` block and place it inside the `||input:on button A pressed||`.
 Change the heart to the happy face.
 
 
@@ -37,7 +37,7 @@ input.onButtonPressed(Button.A, function () {
 
 ## B = 😞
 
-Duplicate (two-finger tap or right-click on the block) your `||input:on button A pressed||`` code and change the A to B.
+Duplicate (two-finger tap or right-click on the block) your `||input:on button A pressed||` code and change the A to B.
 On the `||basic:show icon||` block, change the happy face to the sad face.
 
 ```blocks
