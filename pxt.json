@@ -13,7 +13,8 @@
         "README.md",
         "counter-tutorial.md",
         "emotion-badge-tutorial.md",
-        "rock-paper-scissors-tutorial.md"
+        "rock-paper-scissors-tutorial.md",
+        "calming-leds-tutorial.md"
     ],
     "testFiles": [
         "test.ts"

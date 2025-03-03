@@ -6,9 +6,9 @@ Some people have difficulty understanding their own and others' emotions. In thi
 
 ## Let's get started! @fullscreen
 
-We will not need the ``||basic.forever||`` block, so you can drag it over back to the Toolbox to delete it.
-Open the ``||basic:Basic||`` category in the Toolbox and grab a ``||basic:clear screen||``.
-Place it in the ``||basic:on start||``.
+We will not need the `||basic.forever||` block, so you can drag it over back to the Toolbox to delete it.
+Open the `||basic:Basic||` category in the Toolbox and grab a `||basic:clear screen||`.
+Place it in the `||basic:on start||`.
 
 ```blocks
 basic.clearScreen()
@@ -16,7 +16,7 @@ basic.clearScreen()
 
 ## Button Pressing
 
-Open the ``||input:Input||`` category in the Toolbox and drag a ``||input:on button A  pressed||`` block into your workspace.
+Open the `||input:Input||` category in the Toolbox and drag a `||input:on button A  pressed||` block into your workspace.
 
 ```blocks
 input.onButtonPressed(Button.A, function () {
