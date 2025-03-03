@@ -25,7 +25,6 @@ input.onButtonPressed(Button.A, function () {
 
 ## A = 😊
 
-Open `||input:Input||` and grab a `||input:on button A pressed||` event block.
 Open `||basic:Basic||` and  grab a `||basic:showIcon||` block and place it inside the `||input:on button A pressed||`.
 Change the heart to the happy face.
 
