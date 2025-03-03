@@ -12,7 +12,8 @@
         "main.ts",
         "README.md",
         "counter-tutorial.md",
-        "emotion-badge-tutorial.md"
+        "emotion-badge-tutorial.md",
+        "rock-paper-scissors-tutorial.md"
     ],
     "testFiles": [
         "test.ts"
