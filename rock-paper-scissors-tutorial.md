@@ -36,9 +36,10 @@ input.onGesture(Gesture.Shake, function (){
 
 ## Now, let's randomize our variable's value!
 
-Now, we don't want out hand variable to always be 0, we need it to change, randomly, each time we play!
+Now, we don't want our hand variable to always be 0, we need it to change, randomly, each time we play!
 Open the `||math:Math||` category in the Toolbox and grab a `||math: random number from 0 to 10||` block.
 Place it in the `||variables:set hand||` block in place of the 0.
+Change the 0 to a 1 and the 10 to a 3 since there are only 3 options in Rock, Paper, Scissors.
 
 ```blocks
 let hand = 0
@@ -76,6 +77,7 @@ input.onGesture(Gesture.Shake, function () {
 Now, we need to check to see **if** the micro:bit should show a rock.
 Open the `||logic:Logic||` category and grab a `||logic:0 = 0||` block.
 Place that block where the `||logic:if||` block says **true**.
+Place a `||variables:hand||` block in place of the first 0 and change the second 0 to a 1.
 Now, grab a `||basic:show icon||` block  and place it in the **if** block in the first then section.
 Change the heart to the small square icon to represent rock.
 
@@ -98,7 +100,7 @@ input.onGesture(Gesture.Shake, function () {
 
 What about if **hand = 2**?
 Well, then that can be paper!
-Duplicate the **hand = 1** block and place it where the conditional in place of **false**.
+Duplicate the **hand = 1** block and place it in the conditional in place of **false**.
 Change the 1 to a 2.
 Duplicate the `||basic:show icon||` block and place in the next section of the conditional.
 Change the small square icon to the square icon to represent paper.
