@@ -73,10 +73,49 @@ input.onGesture(Gesture.Shake, function () {
 
 ## Rock
 
+Now, we need to check to see **if** the micro:bit should show a rock.
+Open the `||logic:Logic||` category and grab a `||logic:0 = 0||` block.
+Place that block where the `||logic:if||` block says **true**.
+Now, grab a `||basic:show icon||` block  and place it in the **if** block in the first then section.
+Change the heart to the small square icon to represent rock.
 
 
+```blocks
+let hand = 0
+input.onGesture(Gesture.Shake, function () {
+    hand = randint(1, 3)
+    if (hand == 1) {
+	    basic.showIcon(IconNames.SmallSquare)
+    } else if (false) {
+	
+    } else {
+	
+}
+})
+```
 
 ## Paper
+
+What about if **hand = 2**?
+Well, then that can be paper!
+Duplicate the **hand = 1** block and place it where the conditional in place of **false**.
+Change the 1 to a 2.
+Duplicate the `||basic:show icon||` block and place in the next section of the conditional.
+Change the small square icon to the square icon to represent paper.
+
+```blocks
+let hand = 0
+input.onGesture(Gesture.Shake, function () {
+    hand = randint(1, 3)
+    if (hand == 1) {
+	    basic.showIcon(IconNames.SmallSquare)
+    } else if (hand == 2) {
+	    basic.showIcon(IconNames.Square)
+    } else {
+	
+}
+})
+```
 
 
 ## Scissors
