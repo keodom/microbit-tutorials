@@ -1,5 +1,5 @@
 
-> Open this page at [https://keodom.github.io/tutorials/](https://keodom.github.io/tutorials/)
+> Open this page at [https://keodom.github.io/tutorials/](https://keodom.github.io/microbit-tutorials/)
 
 ## Tutorials
 * [Emotion Badge Tutorial](/tutorials/emotion-badge-tutorial)
@@ -15,7 +15,7 @@ To edit this repository in MakeCode.
 
 * open [https://makecode.microbit.org/](https://makecode.microbit.org/)
 * click on **Import** then click on **Import URL**
-* paste **https://github.com/keodom/tutorials** and click import
+* paste **https://github.com/keodom/microbit-tutorials** and click import
 
 #### Metadata (used for search, rendering)
 
