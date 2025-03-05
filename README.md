@@ -2,10 +2,10 @@
 > Open this page at [https://keodom.github.io/tutorials/](https://keodom.github.io/microbit-tutorials/)
 
 ## Tutorials
-* [Emotion Badge Tutorial](/tutorials/emotion-badge-tutorial)
-* [Calming LEDs Tutorial](/tutorials/calming-leds-tutorial)
-* [Counter Tutorial](/tutorials/counter-tutorial)
-* [Rock Paper Scissors Tutorial](/tutorials/rock-paper-scissors-tutorial)
+* [Emotion Badge Tutorial](/microbit-tutorials/emotion-badge-tutorial)
+* [Calming LEDs Tutorial](/microbit-tutorials/calming-leds-tutorial)
+* [Counter Tutorial](/microbit-tutorials/counter-tutorial)
+* [Rock Paper Scissors Tutorial](/microbit-tutorials/rock-paper-scissors-tutorial)
 
 
 
